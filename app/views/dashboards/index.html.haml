@@ -1,6 +1,6 @@
 .div.m-4
   %h1.mb-4
-    = "Crud disponibles"
+    = t('application.cruds-available')
 
 .float-start.m-4
-  = link_to "Contenidos", root_path, class: 'btn btn-danger'
+  = button_to t('application.logout'), destroy_user_session_path, method: :delete ,class: 'btn btn-danger'
