@@ -11,6 +11,7 @@ gem 'font-awesome-sass', '~> 6.4.0'
 gem 'haml'
 gem "importmap-rails"
 gem "jbuilder"
+gem 'devise'
 gem 'jquery-rails'
 gem "pg", "~> 1.1"
 gem "puma", "~> 5.0"
